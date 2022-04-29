@@ -1,22 +1,23 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package paqueteuno;
+package paquete2;
+
+import paquete1.FacturaTelefono;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
 public class Ejecutor {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         // Crear un objeto de tipo FacturaTelefono
         FacturaTelefono ft = new FacturaTelefono();
         // Valores de entrada
         String numeroTelefono = "098321321";
-        double minutos = 230;
-        double valorMinuto = 0.25;
+        double minutos = 30;
+        double valorMinuto = 0.15;
         // uso de los métodos establecer para darle valores a los 
         // atributos del objeto.
         ft.establecerNumeroTelefono(numeroTelefono);
@@ -39,5 +40,7 @@ public class Ejecutor {
                 + "Valor a cancelar: %.2f\n", ft.obtenerNumeroTelefono(),
                 ft.obtenerMinutosMes(), ft.obtenerValorMinuto(),
                 ft.obtenerValorFactura());
-    }
 }
+     
+         
+     }
