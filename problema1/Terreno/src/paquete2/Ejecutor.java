@@ -5,7 +5,6 @@
 package paquete2;
 
 import paquete1.Terreno;
-
 /**
  *
  * @author UTPL
@@ -35,13 +34,12 @@ public class Ejecutor {
         
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
-        System.out.printf("Costo Terreno\n\nancho del terreno: %.2f\n"
-                + "largo del terreno: %.2f\nValor metro cuadrados: %.2f\n"
-                + "Costo del Terreno: %.2f\n", at.obtenerAncho(),
-                at.obtenerLargo(), at.obtenerarArea());
-}
-     
-         
+          System.out.printf("Costo Terreno\n\nAncho del terreno: %.2f\n"
+                +"Largo del terreno: %.2f\n Valor metro cuadrado: %.2f\n"
+                +"Costo del Terreno: %.2f\n",at.obtenerAncho(),at.obtenerLargo(),
+           at.obtenerValorMetroCuadrado(),at.obtenerCostoterreno());           
      }
+     }
+
     
 

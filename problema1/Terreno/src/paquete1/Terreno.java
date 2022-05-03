@@ -36,9 +36,16 @@ public class Terreno {
      public double obtenerLargo(){
         return largo;
     }
-    public double obtenerarArea(){
+    public double obtenerArea(){
         return area;
     }
+     public double obtenerValorMetroCuadrado(){
+        return valorMetroCuadrado;
+    }
+    public double obtenerCostoterreno(){
+        return costo_terreno;
+    }
+    
     
     
 }
